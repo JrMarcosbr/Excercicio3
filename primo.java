@@ -14,11 +14,10 @@ public class primo {
         int result = obj.funcao(aux, aux1);
     }
     public int funcao(int aux,int aux1){
-        if (aux == 0 && aux1 == 1){
-            System.out.println("ESSE NUMERO E PRIMO");
+        if (aux == 0 && aux1 >= 0){
+            return System.out.println("ESSE NUMERO E PRIMO");
         }else{
-            System.out.println("ESSE NUMERO NÃO E PRIMO"); 
+            return System.out.println("ESSE NUMERO NÃO E PRIMO"); 
         }
-        return 0;
     }
 }
