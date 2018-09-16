@@ -19,7 +19,7 @@ public class Fibonacci {
     Scanner tcl = new Scanner(System.in);
     System.out.println("Digite a quantidade");
         int aux = tcl.nextInt();
-        int vetor = aux;
+        int vetor[] = new int[aux];
         for (int i = 0 ; i < vetor.lenght ; i++) {
                 System.out.print("(" + i + "):" + Fibonacci.fibo(i) + "\t");
             }
